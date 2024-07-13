@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.secret_key = 'MYSECRETKEY'
 
 # MongoDB configuration
-client = MongoClient('mongodb+srv://deepraj21bera:KB6tvjYDWc7DJdJe@cluster0.tfauzjh.mongodb.net/canvas')
+client = MongoClient('MongoDB-URI')
 db = client['stock_app']
 users_collection = db['users']
 wishlist_collection = db['wishlist']
