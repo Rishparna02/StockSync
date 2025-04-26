@@ -138,5 +138,5 @@ def search_ticker_data(ticker):
         print(f"Error fetching data for ticker {ticker}: {e}")
         return {'error': 'Failed to fetch data'}
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
